@@ -1,16 +1,16 @@
 import "./App.css";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import HeroSection from "./components/HeroSection";
+import Footer from "./components/main/Footer";
+import Header from "./components/main/Header";
+import HeroSection from "./components/main/HeroSection";
+import ServicesSection from "./components/main/ServicesSection";
 
 function App() {
   return (
     <>
       <Header />
       <HeroSection />
+      <ServicesSection />
       <Footer />
-      {/* it works  */}
-      <h1 className="text-xl bg-slate-400">hello world</h1>
     </>
   );
 }
