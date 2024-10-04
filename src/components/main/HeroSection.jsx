@@ -1,36 +1,19 @@
-import { center } from '../../App.module.css'
-
 export default function HeroSection() {
 	return (
-		<div className='relative'>
-			<img
-				className='w-full'
-				src='/hero_section.avif'
-				alt='Coding'
-				style={{ aspectRatio: '5/1' }}
-			/>
-			<div className={`absolute ${center}`}>
-				<h1
-					className='text-center text-white'
-					style={{
-						textShadow: '2px 3px 4px rgba(0,0,0,.5)',
-					}}
-				>
-					Innovative Software Solutions for Your Business
+		<div className='flex overflow-hidden purple-bg-light pt-16 px-20 gap-36' style={{ borderBottomRightRadius: '200px', marginBottom: '-50px' }}>
+			<div className="flex flex-col gap-4">
+				<h1 className='purple-dark'>
+					Innovative Software Solutions for your Business
 				</h1>
-				<p
-					className='text-center text-white'
-					style={{
-						textShadow: '2px 3px 4px rgba(0,0,0,.5)',
-					}}
-				>
-					We build software that accelerates your business growth
+				<p className='purple-dark'>
+					We build software that accelerates your business growth.
 				</p>
+				<div className='flex gap-5 mt-10'>
+					<button className="btn-purple-dark">Start a Project</button>
+					<button className="btn-purple-light">Explore Services</button>
+				</div>
 			</div>
-			<div className='absolute' style={{ top: '86%', right: '1%' }}>
-				<button>Start a Project</button>
-				<button>Explore Services</button>
-			</div>
+			<img src='/hero_section.png' alt='Ilustration' width='40%' />
 		</div>
 	)
 }

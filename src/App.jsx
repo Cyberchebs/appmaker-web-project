@@ -6,13 +6,13 @@ import ServicesSection from "./components/main/ServicesSection";
 
 function App() {
   return (
-    <>
-      <Header />
-      <HeroSection />
-      <ServicesSection />
-      <Footer />
-    </>
-  );
+		<div style={{ backgroundColor: '#fff5fb' }}>
+			<Header />
+			<HeroSection />
+			<ServicesSection />
+			<Footer />
+		</div>
+	)
 }
 
 export default App;

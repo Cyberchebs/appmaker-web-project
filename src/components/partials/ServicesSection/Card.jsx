@@ -1,10 +1,10 @@
-import { center } from '../../../App.module.css'
-
-export default function Card({ image, title }) {
+export default function Card({ image, title, desc }) {
 	return (
-		<div className='relative'>
+		<div className='flex flex-col gap-5 bg-white p-5' style={{ borderRadius: '8px' }}>
 			<img src={`/${image}`} alt={title} />
-			<h1 className={`capitalize absolute ${center} text-center text-white`}>{title}</h1>
+			<h6 className='capitalize'>{title}</h6>
+			<p style={{ color: '#8A92A6' }}>{desc}</p>
+			<button className="btn-purple-light" style={{ fontWeight: 'bold', width: '60%' }}>View Details</button>
 		</div>
 	)
 }

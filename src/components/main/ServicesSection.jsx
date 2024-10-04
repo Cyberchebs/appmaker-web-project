@@ -1,12 +1,26 @@
-import Card from "../partials/ServicesSection/Card";
+import Card from '../partials/ServicesSection/Card'
 
 export default function ServicesSection() {
-    return (
-        <div className="flex gap-8 mx-10 my-5">
-            <Card image='website_development.png' title='Website Development' />
-            <Card image='website_development.png' title='Website Development' />
-            <Card image='website_development.png' title='Website Development' />
-            <Card image='website_development.png' title='Website Development' />
-        </div>
-    )
+	return (
+		<div className='my-32'>
+			<h1 className='purple-dark text-center'>Our Services</h1>
+			<div className='flex gap-24 mx-32 my-10'>
+				<Card
+					image='web_dev.png'
+					title='Web Development'
+					desc='We create responsive, high-performance websites tailored to your business needs, ensuring seamless user experiences across all devices.'
+				/>
+				<Card
+					image='mobile_dev.png'
+					title='Web Development'
+					desc='We create responsive, high-performance websites tailored to your business needs, ensuring seamless user experiences across all devices.'
+				/>
+				<Card
+					image='cloud_solutions.png'
+					title='Web Development'
+					desc='We create responsive, high-performance websites tailored to your business needs, ensuring seamless user experiences across all devices.'
+				/>
+			</div>
+		</div>
+	)
 }
