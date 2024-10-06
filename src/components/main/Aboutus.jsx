@@ -1,13 +1,13 @@
-import React from "react";
-import AboutCard from "../partials/aboutussection/aboutCard";
+import React from 'react'
+import AboutCard from '../partials/aboutussection/aboutCard'
 
 const Aboutus = () => {
-  return (
+	return (
 		<div className='p-[65px]'>
 			<h1 className='purple-dark text-center mb-[50px] mt-[50px] '>About Us</h1>
 			<div className='relative ml-[250px]'>
 				<img
-					src='../../../public/aboutUs-team.png'
+					src='/aboutUs-team.png'
 					alt=''
 					className='rounded-md w-[1025px] h-[535px]'
 				/>
@@ -26,14 +26,19 @@ const Aboutus = () => {
 					</button>
 				</div>
 			</div>
-			<div className='flex mt-48 gap-10'>
+			<div className='flex mt-48'>
 				<AboutCard image='yearsOfExp' number='3' title='Years of Exp' />
 				<AboutCard image='experts' number='15' title='Certified Experts' />
-				<AboutCard image='satisfaction' number='100%' title='Satisfaction' isPlus={false} />
+				<AboutCard
+					image='satisfaction'
+					number='100%'
+					title='Satisfaction'
+					isPlus={false}
+				/>
 				<AboutCard image='happyCustomers' number='350' title='Happy Clients' />
 			</div>
 		</div>
 	)
-};
+}
 
-export default Aboutus;
+export default Aboutus

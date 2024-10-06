@@ -46,6 +46,14 @@ button {
     background-color: #F7DBFE;
 }
 
+.purple-bg-dark {
+    background-color: #3C096C;
+}
+
 .purple-dark {
     color: #3C096C;
+}
+
+.purple-light {
+    color: #F7DBFE;
 }
