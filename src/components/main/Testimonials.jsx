@@ -143,7 +143,7 @@ const Testimonials = () => {
           />
         </div>
       </div>
-      <button className="btn-purple-dark w-[407px] h-[68px] mt-[82px] ">
+      <button className="btn-purple-dark w-[407px] h-[68px] mt-[82px]  hover:bg-purple-500 hover:border-purple-500 rounded transition-colors duration-300 ">
         View All Customers
       </button>
       <Companylogos />

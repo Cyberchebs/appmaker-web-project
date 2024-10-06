@@ -20,7 +20,7 @@ const Aboutus = () => {
             collaboration, integrity, and pushing the boundaries of technology
             to deliver outstanding results for our clients.
           </p>
-          <button className="btn-purple-light w-[136px] h-[44px]">
+          <button className="btn-purple-light w-[136px] h-[44px]  hover:bg-purple-500 hover:border-purple-500 rounded transition-colors duration-300">
             Contact Us
           </button>
         </div>
