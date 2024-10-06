@@ -35,11 +35,23 @@ button {
 .btn-purple-dark {
     background-color: #3C096C;
     border: 5px solid #3C096C;
+    transition: .3s;
+
+    &:hover {
+        background-color: #7B2CBF;
+        border-color: #7B2CBF;
+    }
 }
 
 .btn-purple-light {
     background-color: #C77DFF;
     border: 5px solid #C77DFF;
+    transition: .3s;
+
+    &:hover {
+        background-color: #EDAAFF;
+        border-color: #EDAAFF;
+    }
 }
 
 .purple-bg-light {
