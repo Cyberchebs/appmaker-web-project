@@ -5,6 +5,7 @@ import Header from "./components/main/Header";
 import HeroSection from "./components/main/HeroSection";
 import PortfolioSection from "./components/main/PortfolioSection";
 import ServicesSection from "./components/main/ServicesSection";
+import Testimonials from "./components/main/Testimonials";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <ServicesSection />
       <PortfolioSection />
       <Aboutus />
+      <Testimonials />
       <Footer />
     </div>
   );
