@@ -12,13 +12,13 @@ export default function ServicesSection() {
         />
         <Card
           image="mobile_dev.png"
-          title="Web Development"
-          desc="We create responsive, high-performance websites tailored to your business needs, ensuring seamless user experiences across all devices."
+          title="Mobile App Development"
+          desc="Our team builds custom mobile apps for iOS and Android, delivering intuitive and engaging experiences that drive user interaction and retention."
         />
         <Card
           image="cloud_solutions.png"
-          title="Web Development"
-          desc="We create responsive, high-performance websites tailored to your business needs, ensuring seamless user experiences across all devices."
+          title="Cloud Solutions"
+          desc="We provide scalable cloud solutions that enhance your business operations, improve collaboration, and ensure data security and accessibility."
         />
       </div>
     </div>
