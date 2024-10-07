@@ -1,5 +1,6 @@
 import "./App.css";
 import Aboutus from "./components/main/Aboutus";
+import Contact from "./components/main/Contact";
 import Footer from "./components/main/Footer";
 import Header from "./components/main/Header";
 import HeroSection from "./components/main/HeroSection";
@@ -16,6 +17,7 @@ function App() {
       <PortfolioSection />
       <Aboutus />
       <Testimonials />
+      <Contact />
       <Footer />
     </div>
   );

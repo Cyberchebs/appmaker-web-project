@@ -4,12 +4,12 @@ export default function Header() {
       <nav className="flex justify-between items-center">
         <div>
           <img
-            className="w-[218px] h-[81.49px]"
+            className="w-[150px] h-[50px] lg:h-[81.49px] lg:w-[218px]"
             src="../../../public/logos/appMaker_logo.png"
             alt=""
           />
         </div>
-        <ul className="flex gap-[46px]">
+        <ul className="lg:flex gap-[46px] hidden ">
           <li className="cursor-pointer hover:scale-110 transition-transform duration-300">
             Home
           </li>
